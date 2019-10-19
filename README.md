@@ -1,7 +1,7 @@
 ## Gogs and Postgres Docker Compose
 ### Run
 ---
-
+0. Clone repository and create folder `data/gogs` and `data/postgres`
 1. Run `docker-compose up -d` to run docker compose.
 2. Check that your Gogs application is running enter url `http://localhost:10800`.
 3. Check postgres docker container is running at localhost:5432.
